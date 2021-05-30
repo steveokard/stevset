@@ -20,11 +20,13 @@ if ! zgenom saved; then
     # plugins
     zgenom prezto fasd
     zgenom prezto git
-    zgenom prezto history-substring-search
 
     # bulk load
     zgenom loadall <<EOPLUGINS
         zsh-users/zsh-history-substring-search
+        b4b4r07/enhancd
+        zdharma/fast-syntax-highlighting
+
 EOPLUGINS
     # ^ can't indent this EOPLUGINS
 
